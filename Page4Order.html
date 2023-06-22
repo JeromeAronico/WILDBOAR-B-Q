@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WILDBOAR-B-Q</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-------- <header -->
+    <section class="product-header">
+       <nav>
+            <a href="home.html"><img src="bbqlogo3.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="Page4Order.html">ORDER</a></li>
+                    <li><a href="Page2Product.html">PRODUCTS</a></li>
+                    <li><a href="Page3Details.html">FEEDBACK</a></li>
+                    <li><a href="Page5AboutUs.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+<!-------- header> -->
+
+
+<!-------- <shopping -->
+    <div class="container">
+        <header>
+            <h1>Your Cart</h1>
+            <div class="shopping">
+                <img src="shoppingbag.png">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+        <div class="list"></div>   
+    </div>
+    <div class="card">
+        <h1>Card</h1>
+        <ul class="listCard"></ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div> 
+        </div>
+    </div>
+<!-------- shopping> -->
+
+
+
+<!------- <FOOTER  ------->
+    <section class="footer">
+        <div class="footerNav">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="Page4Order.html">ORDER</a></li>
+                <li><a href="Page2Product.html">PRODUCTS</a></li>
+                <li><a href="Page3Details.html">FEEDBACK</a></li>
+                <li><a href="Page5AboutUs.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/profile.php?id=100088268260694"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a href="https://mail.google.com/"><i class="fa fa-google-plus"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footerDisclaimer">
+            <p> 
+                Copyright &copy;2023 Wildboar-B-Q, All rights reserved.
+                <br> Some logos, patents, and trademarks belong to their respective owners
+                <br> Disclaimer
+                <br> Some content in this website are sourced from internet and <br> this is for education purposes only
+            </p>
+        </div>
+    </section>
+<!------- FOOTER>  ------->
+
+
+
+
+<!-------- <JAVASCRIPT FOR TOGGLE MENU -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        </script>
+<!-------- JAVASCRIPT FOR TOGGLE MENU> -->
+
+    <script src="app.js"></script>
+</body>
+</html> 

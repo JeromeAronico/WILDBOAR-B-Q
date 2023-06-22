@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WILDBOAR-B-Q</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-------- <header -->
+    <section class="product-header">
+       <nav>
+            <a href="home.html"><img src="bbqlogo3.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="Page4Order.html">ORDER</a></li>
+                    <li><a href="Page2Product.html">PRODUCTS</a></li>
+                    <li><a href="Page3Details.html">FEEDBACK</a></li>
+                    <li><a href="Page5AboutUs.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+<!-------- header> -->
+
+
+
+<!-------- <productsHeader -->
+    <section class="products">
+            <section class="productsSect">
+                <h1>PRODUCTS</h1>
+                <div class="productsRow">
+                    <div class="productsCol">
+                        <img src="pork.jpg">
+                        <h3>GRILLED PORK</h3>
+                    </div>
+                    <div class="productsCol">
+                        <img src="squid.jpg">
+                        <h3>GRILLED SQUID</h3>
+                    </div>
+                    <div class="productsCol">
+                        <img src="chicken.jpg">
+                        <h3>GRILLED CHICKEN</h3>
+                    </div>
+                </div>
+            </section> 
+    </section>
+<!-------- productsHeader> -->
+
+
+<!-------- productProcedures -->
+    <section class="procedure">
+        <section class="procedureBase">
+            <div class="procedureCol">
+                <h3>Procedures on how we serve your delicious dishes.</h3>
+                    <p>1. Marinate chicken/pork/squid pieces in a mixture of soy sauce, calamansi juice (or lemon juice), garlic, onion, black pepper, and salt for at least 8-10 hours.</p>
+                    <p>2. Preheat grill to medium-high heat.</p>
+                    <p>3. Put them into sticks.</p>
+                    <p>4. Grill chicken until skin is charred and internal temperature reaches 165°F (74°C), basting with marinade.</p>
+                    <p>5. Let chicken rest for a few minutes.</p>
+                    <p>6. Serve on a platter, garnish with calamansi slices.</p>
+            </div>
+            <div class="packagingCol">
+                <h3>PACKAGING</h3>
+                <img src="packaging.png">
+            </div>
+            <div class="logoCol">
+                <h3>LOGO</h3>
+                <img src="logo.png">
+            </div>
+            <div class="flyerCol">
+                <h3>FLYERS</h3>
+                <img src="flyers.png">
+            </div>
+        </section>
+    </section>
+<!-------- productProcedures> -->
+
+
+
+
+
+<!------- <FOOTER  ------->
+    <section class="footer">
+        <div class="footerNav">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="Page4Order.html">ORDER</a></li>
+                <li><a href="Page2Product.html">PRODUCTS</a></li>
+                <li><a href="Page3Details.html">FEEDBACK</a></li>
+                <li><a href="Page5AboutUs.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/profile.php?id=100088268260694"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a href="https://mail.google.com/"><i class="fa fa-google-plus"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footerDisclaimer">
+            <p> 
+                Copyright &copy;2023 Wildboar-B-Q, All rights reserved.
+                <br> Some logos, patents, and trademarks belong to their respective owners
+                <br> Disclaimer
+                <br> Some content in this website are sourced from internet and <br> this is for education purposes only
+            </p>
+        </div>
+    </section>
+<!------- FOOTER>  ------->
+
+
+
+
+<!-------- <JAVASCRIPT FOR TOGGLE MENU -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        </script>
+<!-------- JAVASCRIPT FOR TOGGLE MENU> -->
+
+</body>
+</html> 
